@@ -1,0 +1,609 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <section class="logoContainer">
+        <div class="logoDiv">
+          <img src="/img/dragon_logo_cropped.png" alt="logo" class="logo" />
+          <h1>Hex & Co</h1>
+        </div>
+        <div class="search-bar-wrapper">
+          <form
+            id="search-form"
+            class="search-form"
+            action="index.html"
+            method="post"
+          >
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search between all products"
+            />
+            <button type="submit" class="search-button">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"
+                />
+              </svg>
+            </button>
+          </form>
+        </div>
+        <div class="accountOptions">
+          <svg
+            class="shoppingCartLogo"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+          >
+            <defs></defs>
+            <g id="shopping_cart" data-name="shopping cart">
+              <path
+                class="cls-1"
+                d="M29.74 8.32A1 1 0 0 0 29 8H13a1 1 0 0 0 0 2h14.91l-.81 9.48a1.87 1.87 0 0 1-2 1.52H12.88a1.87 1.87 0 0 1-2-1.52L10 8.92v-.16L9.33 6.2A3.89 3.89 0 0 0 7 3.52L3.37 2.07a1 1 0 0 0-.74 1.86l3.62 1.45a1.89 1.89 0 0 1 1.14 1.3L8 9.16l.9 10.49a3.87 3.87 0 0 0 4 3.35h.1v2.18a3 3 0 1 0 2 0V23h8v2.18a3 3 0 1 0 2 0V23h.12a3.87 3.87 0 0 0 4-3.35L30 9.08a1 1 0 0 0-.26-.76zM14 29a1 1 0 1 1 1-1 1 1 0 0 1-1 1zm10 0a1 1 0 1 1 1-1 1 1 0 0 1-1 1z"
+              />
+              <path
+                class="cls-1"
+                d="M15 18v-5a1 1 0 0 0-2 0v5a1 1 0 0 0 2 0zM20 18v-5a1 1 0 0 0-2 0v5a1 1 0 0 0 2 0zM25 18v-5a1 1 0 0 0-2 0v5a1 1 0 0 0 2 0z"
+              />
+            </g>
+          </svg>
+          <svg
+            class="UserLogo"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+            style="enable-background: new 0 0 32 32"
+            xml:space="preserve"
+          >
+            <path
+              d="M16 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7zm0-12c-2.757 0-5 2.243-5 5s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5zM27 32a1 1 0 0 1-1-1v-6.115a6.95 6.95 0 0 0-6.942-6.943h-6.116A6.95 6.95 0 0 0 6 24.885V31a1 1 0 1 1-2 0v-6.115c0-4.93 4.012-8.943 8.942-8.943h6.116c4.93 0 8.942 4.012 8.942 8.943V31a1 1 0 0 1-1 1z"
+            />
+          </svg>
+          <button id="dark-mode-toggle">🌙</button>
+        </div>
+      </section>
+      <nav>
+        <li class="navBar">
+          <a href="shop.html">Shop</a>
+          <a href="about.html">Over Ons</a>
+          <a href="contact.html">Contact</a>
+          <a href="reviews.html">reviews</a>
+          <a href="faq.html">FAQ</a>
+          <a href="login.html">Inloggen/Registeren</a>
+        </li>
+      </nav>
+    </header>
+    <section class="titleScreen">
+      <div class="title">
+        <h3>Premium wizard supplies for a cheap price</h3>
+        <h1>Hex&Co</h1>
+        <button>Shop Now</button>
+      </div>
+    </section>
+    <section class="products-container">
+      <section class="productSelect">
+        <button>
+          <svg
+            class="OptionLogo"
+            xmlns="http://www.w3.org/2000/svg"
+            width="200"
+            height="200"
+            viewBox="0 0 512 512"
+          >
+            <path
+              d="M440.88 129.37L288.16 40.62a64.14 64.14 0 0 0-64.33 0L71.12 129.37a4 4 0 0 0 0 6.9L254 243.85a4 4 0 0 0 4.06 0L440.9 136.27a4 4 0 0 0-.02-6.9M256 152c-13.25 0-24-7.16-24-16s10.75-16 24-16s24 7.16 24 16s-10.75 16-24 16m-18 118.81L54 163.48a4 4 0 0 0-6 3.46v173.92a48 48 0 0 0 23.84 41.39L234 479.48a4 4 0 0 0 6-3.46V274.27a4 4 0 0 0-2-3.46M96 368c-8.84 0-16-10.75-16-24s7.16-24 16-24s16 10.75 16 24s-7.16 24-16 24m96-32c-8.84 0-16-10.75-16-24s7.16-24 16-24s16 10.75 16 24s-7.16 24-16 24m266-172.49L274 271.56a4 4 0 0 0-2 3.45V476a4 4 0 0 0 6 3.46l162.15-97.23A48 48 0 0 0 464 340.86V167a4 4 0 0 0-6-3.49M320 424c-8.84 0-16-10.75-16-24s7.16-24 16-24s16 10.75 16 24s-7.16 24-16 24m0-88c-8.84 0-16-10.75-16-24s7.16-24 16-24s16 10.75 16 24s-7.16 24-16 24m96 32c-8.84 0-16-10.75-16-24s7.16-24 16-24s16 10.75 16 24s-7.16 24-16 24m0-88c-8.84 0-16-10.75-16-24s7.16-24 16-24s16 10.75 16 24s-7.16 24-16 24"
+            /></svg
+          >Dices
+        </button>
+        <button>Miniatures and Figurines</button>
+        <button>Magic Wands</button>
+        <button>Magical ingredients</button>
+        <button>Cards</button>
+        <button>Wizard hats</button>
+        <button>something</button>
+        <button>something</button>
+      </section>
+      <section class="cards-container">
+        <section class="card-row-container">
+          <div class="card">
+            <img
+              src="/img/unicorn-hair-purple-230855274.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Unicorn hair</h2>
+            <div class="price">
+              <span class="old-price">$24.00</span>
+              <span class="new-price">$18.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/depositphotos_9445664-stock-illustration-old-parchment-scroll-of-flames-3154809885.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">The Fire Scroll</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$199.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/976283-guitar-music-guitars-rock-3536741915.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Siren's Screams</h2>
+            <div class="price">
+              <span class="old-price">$60.00</span>
+              <span class="new-price">$49.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/river-rock-2692343-2929694820.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">A plain rock</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$1.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+        </section>
+        <section class="card-row-container">
+          <div class="card">
+            <img
+              src="/img/unicorn-hair-purple-230855274.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Unicorn hair</h2>
+            <div class="price">
+              <span class="old-price">$24.00</span>
+              <span class="new-price">$18.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/depositphotos_9445664-stock-illustration-old-parchment-scroll-of-flames-3154809885.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">The Fire Scroll</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$199.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/976283-guitar-music-guitars-rock-3536741915.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Siren's Screams</h2>
+            <div class="price">
+              <span class="old-price">$60.00</span>
+              <span class="new-price">$49.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/river-rock-2692343-2929694820.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">A plain rock</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$1.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+        </section>
+        <section class="card-row-container">
+          <div class="card">
+            <img
+              src="/img/unicorn-hair-purple-230855274.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Unicorn hair</h2>
+            <div class="price">
+              <span class="old-price">$24.00</span>
+              <span class="new-price">$18.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/depositphotos_9445664-stock-illustration-old-parchment-scroll-of-flames-3154809885.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">The Fire Scroll</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$199.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/976283-guitar-music-guitars-rock-3536741915.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Siren's Screams</h2>
+            <div class="price">
+              <span class="old-price">$60.00</span>
+              <span class="new-price">$49.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/river-rock-2692343-2929694820.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">A plain rock</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$1.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+        </section>
+        <section class="card-row-container">
+          <div class="card">
+            <img
+              src="/img/unicorn-hair-purple-230855274.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Unicorn hair</h2>
+            <div class="price">
+              <span class="old-price">$24.00</span>
+              <span class="new-price">$18.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/depositphotos_9445664-stock-illustration-old-parchment-scroll-of-flames-3154809885.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">The Fire Scroll</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$199.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/976283-guitar-music-guitars-rock-3536741915.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">Siren's Screams</h2>
+            <div class="price">
+              <span class="old-price">$60.00</span>
+              <span class="new-price">$49.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+          <div class="card">
+            <img
+              src="img/river-rock-2692343-2929694820.jpg"
+              alt="Product Image"
+              class="product-img"
+            />
+            <h2 class="product-title">A plain rock</h2>
+            <div class="price">
+              <span class="old-price">$2.00</span>
+              <span class="new-price">$1.00</span>
+            </div>
+            <div class="quantity-selector">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+            <button class="add-to-cart">🛒 Add to Cart</button>
+          </div>
+        </section>
+      </section>
+    </section>
+    <section class="BurgerKingLettuce promotionScreen">
+      <section class="promotionCard">
+        <div>
+          <h3 class="discountTitle">Get <span class="discountHighlight">25% Discount</span> on your first purchase</h3>
+          <p class="discountText">Just Sign Up & Register now to become member.</p>
+        </div>
+        <form class="discountForm">
+          <input type="text" id="email" name="email" placeholder="Email">
+          <input type="submit" id="submit" value="Submit">
+        </form>
+      </section>
+    </section>
+    <footer class="">
+      <section class="pcFooter BurgerKingLettuce">
+        <ul class="links-container">
+          <ul class="socials">
+            <li><img src="img/dragon_logo_cropped.png" alt="dragonlogo" /></li>
+            <li>
+              <a href="https://www.facebook.com/">
+                <svg
+                  class="facebookLogo"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="50px"
+                  height="50px"
+                >
+                  <path
+                    d="M 9 4 C 6.2504839 4 4 6.2504839 4 9 L 4 41 C 4 43.749516 6.2504839 46 9 46 L 25.832031 46 A 1.0001 1.0001 0 0 0 26.158203 46 L 31.832031 46 A 1.0001 1.0001 0 0 0 32.158203 46 L 41 46 C 43.749516 46 46 43.749516 46 41 L 46 9 C 46 6.2504839 43.749516 4 41 4 L 9 4 z M 9 6 L 41 6 C 42.668484 6 44 7.3315161 44 9 L 44 41 C 44 42.668484 42.668484 44 41 44 L 33 44 L 33 30 L 36.820312 30 L 38.220703 23 L 33 23 L 33 21 C 33 20.442508 33.05305 20.398929 33.240234 20.277344 C 33.427419 20.155758 34.005822 20 35 20 L 38 20 L 38 14.369141 L 37.429688 14.097656 C 37.429688 14.097656 35.132647 13 32 13 C 29.75 13 27.901588 13.896453 26.71875 15.375 C 25.535912 16.853547 25 18.833333 25 21 L 25 23 L 22 23 L 22 30 L 25 30 L 25 44 L 9 44 C 7.3315161 44 6 42.668484 6 41 L 6 9 C 6 7.3315161 7.3315161 6 9 6 z M 32 15 C 34.079062 15 35.38736 15.458455 36 15.701172 L 36 18 L 35 18 C 33.849178 18 32.926956 18.0952 32.150391 18.599609 C 31.373826 19.104024 31 20.061492 31 21 L 31 25 L 35.779297 25 L 35.179688 28 L 31 28 L 31 44 L 27 44 L 27 28 L 24 28 L 24 25 L 27 25 L 27 21 C 27 19.166667 27.464088 17.646453 28.28125 16.625 C 29.098412 15.603547 30.25 15 32 15 z"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/">
+                <svg
+                  class="instaLogo"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 32 32"
+                  width="32px"
+                  height="32px"
+                >
+                  <path
+                    d="M 11.46875 5 C 7.917969 5 5 7.914063 5 11.46875 L 5 20.53125 C 5 24.082031 7.914063 27 11.46875 27 L 20.53125 27 C 24.082031 27 27 24.085938 27 20.53125 L 27 11.46875 C 27 7.917969 24.085938 5 20.53125 5 Z M 11.46875 7 L 20.53125 7 C 23.003906 7 25 8.996094 25 11.46875 L 25 20.53125 C 25 23.003906 23.003906 25 20.53125 25 L 11.46875 25 C 8.996094 25 7 23.003906 7 20.53125 L 7 11.46875 C 7 8.996094 8.996094 7 11.46875 7 Z M 21.90625 9.1875 C 21.402344 9.1875 21 9.589844 21 10.09375 C 21 10.597656 21.402344 11 21.90625 11 C 22.410156 11 22.8125 10.597656 22.8125 10.09375 C 22.8125 9.589844 22.410156 9.1875 21.90625 9.1875 Z M 16 10 C 12.699219 10 10 12.699219 10 16 C 10 19.300781 12.699219 22 16 22 C 19.300781 22 22 19.300781 22 16 C 22 12.699219 19.300781 10 16 10 Z M 16 12 C 18.222656 12 20 13.777344 20 16 C 20 18.222656 18.222656 20 16 20 C 13.777344 20 12 18.222656 12 16 C 12 13.777344 13.777344 12 16 12 Z"
+                  />
+                </svg>
+              </a>
+              <a href="https://www.youtube.com/">
+                <svg
+                  class="ytLogo"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                  width="50px"
+                  height="50px"
+                >
+                  <path
+                    d="M 24.402344 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.402344 16.898438 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.902344 40.5 17.898438 41 24.5 41 C 31.101563 41 37.097656 40.5 40.597656 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.097656 35.5 C 45.5 33 46 29.402344 46.097656 24.902344 C 46.097656 20.402344 45.597656 16.800781 45.097656 14.300781 C 44.699219 12.101563 42.800781 10.5 40.597656 10 C 37.097656 9.5 31 9 24.402344 9 Z M 24.402344 11 C 31.601563 11 37.398438 11.597656 40.199219 12.097656 C 41.699219 12.5 42.898438 13.5 43.097656 14.800781 C 43.699219 18 44.097656 21.402344 44.097656 24.902344 C 44 29.199219 43.5 32.699219 43.097656 35.199219 C 42.800781 37.097656 40.800781 37.699219 40.199219 37.902344 C 36.597656 38.601563 30.597656 39.097656 24.597656 39.097656 C 18.597656 39.097656 12.5 38.699219 9 37.902344 C 7.5 37.5 6.300781 36.5 6.101563 35.199219 C 5.300781 32.398438 5 28.699219 5 25 C 5 20.398438 5.402344 17 5.800781 14.902344 C 6.101563 13 8.199219 12.398438 8.699219 12.199219 C 12 11.5 18.101563 11 24.402344 11 Z M 19 17 L 19 33 L 33 25 Z M 21 20.402344 L 29 25 L 21 29.597656 Z"
+                  />
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <li class="quickLinks">
+            <ul>
+              <li class="linkTitle">Quick Links</li>
+              <li>Offers</li>
+              <li>Discount Coupons</li>
+              <li>Track Order</li>
+              <li>Info</li>
+            </ul>
+          </li>
+          <li class="shop">
+            <ul>
+              <li class="linkTitle">Shop</li>
+              <li>About Us</li>
+              <li>Conditions</li>
+              <li>Careers</li>
+            </ul>
+          </li>
+          <li class="customerService">
+            <ul>
+              <li class="linkTitle">Customer Service</li>
+              <li>FAQ</li>
+              <li>Contact</li>
+              <li>Privacy Policy</li>
+              <li>Returns&Refunds</li>
+              <li>Cookie Guidelines</li>
+            </ul>
+          </li>
+        </ul>
+        <section class="BurgerKingLettuce">
+          <div class="copyright">© 2025 Hex&Co. All rights reserved.</div>
+        </section>
+      </section>
+      <section class="phoneFooter">
+        <svg
+          class="homeIcon"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 24 24"
+          width="384px"
+          height="384px"
+        >
+          <g id="Outlined">
+            <path
+              style="fill: none; stroke-width: 2; stroke-miterlimit: 10"
+              d="M19,11v9h-5v-6h-4v6H5v-9H3.606L12,3.445L20.394,11H19z"
+            />
+          </g>
+        </svg>
+        <svg
+          class="notificationIcon"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          viewBox="0 0 50 50"
+          width="50px"
+          height="50px"
+        >
+          <circle
+            fill="none"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-miterlimit="10"
+            cx="21"
+            cy="20"
+            r="16"
+          />
+          <line
+            fill="none"
+            stroke-width="4"
+            stroke-miterlimit="10"
+            x1="32.229"
+            y1="32.229"
+            x2="45.5"
+            y2="45.5"
+          />
+        </svg>
+        <svg
+          class="likeIcon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+        >
+          <path
+            style="stroke: none; fill-rule: nonzero; fill-opacity: 1"
+            d="m18.148 27.824-.148.153-.164-.153C10.71 21.36 6 17.086 6 12.75c0-3 2.25-5.25 5.25-5.25 2.309 0 4.559 1.5 5.355 3.54h2.79C20.19 9 22.44 7.5 24.75 7.5c3 0 5.25 2.25 5.25 5.25 0 4.336-4.71 8.61-11.852 15.074M24.75 4.5c-2.61 0-5.113 1.215-6.75 3.121C16.363 5.715 13.86 4.5 11.25 4.5 6.629 4.5 3 8.113 3 12.75c0 5.656 5.102 10.29 12.824 17.297L18 32.023l2.176-1.976C27.898 23.039 33 18.407 33 12.75c0-4.637-3.629-8.25-8.25-8.25Zm0 0"
+          />
+        </svg>
+        <svg
+          class="searchIcon"
+          version="1.1"
+          id="Layer_1"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink"
+          x="0px"
+          y="0px"
+          viewBox="0 0 48 48"
+          style="enable-background: new 0 0 48 48"
+          xml:space="preserve"
+        >
+          <path
+            style="
+              fill: none;
+              stroke-width: 3;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+              stroke-miterlimit: 10;
+            "
+            d="
+          M23.347,5.515C16.086,5.857,10.5,12.112,10.5,19.381l0,7.619l-2.807,5.648C7.069,33.975,8.036,35.5,9.502,35.5h28.995
+          c1.466,0,2.434-1.525,1.81-2.852L37.5,27v-8C37.5,11.328,31.1,5.15,23.347,5.515z"
+          />
+          <path
+            style="
+              fill: none;
+              stroke-width: 3;
+              stroke-linecap: round;
+              stroke-linejoin: round;
+              stroke-miterlimit: 10;
+            "
+            d="
+          M28.5,37c0,2.485-2.015,4.5-4.5,4.5s-4.5-2.015-4.5-4.5"
+          />
+        </svg>
+        <svg
+          class="accountIcon"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+        >
+          <path
+            style="stroke: none; fill-rule: nonzero; fill-opacity: 1"
+            d="M18 6c3.313 0 6 2.688 6 6 0 3.313-2.688 6-6 6-3.313 0-6-2.688-6-6 0-3.313 2.688-6 6-6m0 3a3 3 0 1 0 .002 6.002A3 3 0 0 0 18 9m0 10.5c4.004 0 12 1.996 12 6V30H6v-4.5c0-4.004 7.996-6 12-6m0 2.852c-4.453 0-9.148 2.187-9.148 3.148v1.648h18.296V25.5c0-.96-4.695-3.148-9.148-3.148Zm0 0"
+          />
+        </svg>
+      </section>
+    </footer>
+  </body>
+</html>
