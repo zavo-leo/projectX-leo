@@ -1,0 +1,17 @@
+/* phone Galaxy Note 20 Android 11 */
+
+@media screen and (max-width: 412px) {
+}
+
+/* tablet Ipad IpadOS 14.7.1 */
+
+@media screen and (width > 413px) and (width <= 810px) {
+}
+
+/* desktop and more */
+
+@media screen and (width > 810px) {
+    .phoneFooter {
+        visibility: hidden;
+    }
+}

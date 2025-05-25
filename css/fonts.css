@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'BurgerKingLettuce';
+  src: url('../fonts/Burger_King_2021.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.navBar a, .BurgerKingLettuce {
+  font-family: 'BurgerKingLettuce', sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gilap';
+  src: url('../fonts/Gilap-Yz28o.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.gilap, .title, .logoDiv, .productSelect {
+  font-family: 'Gilap', sans-serif;
+  font-weight: normal;
+}
+
+

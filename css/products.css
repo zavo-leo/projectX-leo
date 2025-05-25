@@ -1,0 +1,39 @@
+.card-row-container { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.products-container {
+    display: flex;
+    padding: 60px 20px;
+    justify-content: center;
+}
+
+.productSelect {
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    min-width: 270px;
+    max-width: 400px;
+    flex: 1;
+}
+
+.productSelect button { 
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid var(--secondary);
+    display: flex;
+}
+
+.productSelect button:hover {
+    background-color: var(--primary);
+    border: 1px solid var(--primary);
+    border-radius: 12px;
+}
+
+.optionLogo {
+    height: 24px;
+    width: auto;
+    margin-right: 8px;
+}
+

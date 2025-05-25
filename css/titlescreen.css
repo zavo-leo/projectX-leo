@@ -1,0 +1,29 @@
+.titleScreen {
+  background-image: url("../img/pngtree-group-of-characters-standing-by-a-camp-fire-picture-image_2875225-4263899322.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Parallax effect */
+  height: 700px;
+  width: 100vw;
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.title h1{
+  font-size: 100px;
+}
+
+.title { 
+  text-align: center;
+}
+
+.title button { 
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  padding: 8px 16px;
+  border-radius: 12px;
+}
