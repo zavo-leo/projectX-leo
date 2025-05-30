@@ -12,16 +12,15 @@
   align-items: center;
 }
 
-
-.title h1{
+.title h1 {
   font-size: 100px;
 }
 
-.title { 
+.title {
   text-align: center;
 }
 
-.title button { 
+.title button {
   background-color: var(--primary);
   border: 1px solid var(--primary);
   padding: 8px 16px;

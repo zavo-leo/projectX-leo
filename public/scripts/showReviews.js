@@ -52,11 +52,15 @@ async function postReview() {
     alert(await response.text());
     getAllReviews();
   } catch (error) {
-    console.error("Er is een fout opgetreden bij het verzenden van de review:", error);
-    alert("Er ging iets mis bij het verzenden van je review. Probeer het later opnieuw.");
+    console.error(
+      "Er is een fout opgetreden bij het verzenden van de review:",
+      error
+    );
+    alert(
+      "Er ging iets mis bij het verzenden van je review. Probeer het later opnieuw."
+    );
   }
 }
-
 
 const SubmitPOSTbutton = document.getElementById("POSTbutton-r");
 SubmitPOSTbutton.addEventListener("click", function (e) {

@@ -1,23 +1,21 @@
 :root {
-  --primary: #C51A16;
+  --primary: #c51a16;
   --secondary: white;
-  --accent: #F4989B;
+  --accent: #f4989b;
   --background: white;
   --text: white;
-  --secondary-text: #9F9F9F; 
+  --secondary-text: #9f9f9f;
   --third-text: #282828;
 }
-
 
 /* darkmote should be added */
 
 [data-theme="dark"] {
-  --primary: #C51A16;
-  --secondary: #1A1A1A;
-  --accent: #F4989B;
+  --primary: #c51a16;
+  --secondary: #1a1a1a;
+  --accent: #f4989b;
   --background: #121212;
   --text: white;
   --secondary-text: #bbbbbb;
   --third-text: #888888;
 }
-

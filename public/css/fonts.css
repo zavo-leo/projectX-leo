@@ -1,75 +1,77 @@
 @font-face {
-  font-family: 'BurgerKingLettuce';
-  src: url('../fonts/Burger_King_2021.otf') format('opentype');
+  font-family: "BurgerKingLettuce";
+  src: url("../fonts/Burger_King_2021.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
-
-.navBar a, .BurgerKingLettuce {
-  font-family: 'BurgerKingLettuce', sans-serif;
+.navBar a,
+.BurgerKingLettuce {
+  font-family: "BurgerKingLettuce", sans-serif;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Gilap';
-  src: url('../fonts/Gilap-Yz28o.otf') format('opentype');
+  font-family: "Gilap";
+  src: url("../fonts/Gilap-Yz28o.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
-.gilap, .title, .logoDiv, .productSelect {
-  font-family: 'Gilap', sans-serif;
+.gilap,
+.title,
+.logoDiv,
+.productSelect {
+  font-family: "Gilap", sans-serif;
   font-weight: normal;
 }
 
-
 @font-face {
-  font-family: 'WestView';
-  src: url('../fonts/TheWestview-BF64e2f216a735f.otf') format('opentype');
+  font-family: "WestView";
+  src: url("../fonts/TheWestview-BF64e2f216a735f.otf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
-.westView, h2  {
-  font-family: 'WestView', sans-serif;
+.westView,
+h2 {
+  font-family: "WestView", sans-serif;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Bambi';
-  src: url('../fonts/X_BAMBI.TTF') format('opentype');
+  font-family: "Bambi";
+  src: url("../fonts/X_BAMBI.TTF") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 .Bambi {
-  font-family: 'Bambi', sans-serif;
+  font-family: "Bambi", sans-serif;
   font-weight: normal;
 }
 
 @font-face {
-  font-family: 'Gracia';
-  src: url('../fonts/Graciast-ywzg3.ttf') format('opentype');
+  font-family: "Gracia";
+  src: url("../fonts/Graciast-ywzg3.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
 .Gracia {
-  font-family: 'Gracia', sans-serif;
+  font-family: "Gracia", sans-serif;
   font-weight: 10;
 }
 
-
-
 @font-face {
-  font-family: 'IMF';
-  src: url('../fonts/IMFeGPit28P.ttf') format('opentype');
+  font-family: "IMF";
+  src: url("../fonts/IMFeGPit28P.ttf") format("opentype");
   font-weight: normal;
   font-style: normal;
 }
 
-.IMF, div > p {
-  font-family: 'IMF', sans-serif;
+.IMF,
+div > p {
+  font-family: "IMF", sans-serif;
   font-weight: 10;
 }

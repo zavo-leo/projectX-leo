@@ -1,57 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Reviews Frontend</title>
-  <link rel="stylesheet" href="../css/admin.css" />
-</head>
-<body>
-  <h1>Reviews Tester</h1> 
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reviews Frontend</title>
+    <link rel="stylesheet" href="../css/admin.css" />
+  </head>
+  <body>
+    <h1>Reviews Tester</h1>
 
-  <section>
-    <h2>GET All Reviews</h2>
-    <button id="GETbutton">Load All Reviews</button>
-    <div id="reviewsList"></div> <!-- hier komt strakt alle extra elementen bij die js gaat toevoegen waneer een GET request wordt gebruikt -->
-  </section>
+    <section>
+      <h2>GET All Reviews</h2>
+      <button id="GETbutton">Load All Reviews</button>
+      <div id="reviewsList"></div>
+      <!-- hier komt strakt alle extra elementen bij die js gaat toevoegen waneer een GET request wordt gebruikt -->
+    </section>
 
+    <section>
+      <input type="text" id="getID" placeholder="Review ID" />
+      <button id="GETIDbutton">Get Review with ID</button>
+    </section>
 
+    <hr />
+    <!-- trekt een lijn, kei handig -->
 
-  <section>
-    <input type="text" id="getID" placeholder="Review ID">
-    <button id="GETIDbutton">Get Review with ID</button>
-  </section>
+    <section>
+      <h2>POST a Review</h2>
+      <input type="text" id="postFirstName" placeholder="First Name" />
+      <input type="text" id="postLastName" placeholder="Last Name" />
+      <input type="email" id="postEmail" placeholder="Email" />
+      <textarea id="postComment" placeholder="Comment"></textarea>
+      <!-- textarea is een grotere input basically, ook kei handig-->
+      <button id="POSTbutton">Submit Review</button>
+    </section>
 
-  <hr> <!-- trekt een lijn, kei handig -->
+    <hr />
 
-  <section>
-    <h2>POST a Review</h2>
-    <input type="text" id="postFirstName" placeholder="First Name">
-    <input type="text" id="postLastName" placeholder="Last Name">
-    <input type="email" id="postEmail" placeholder="Email">
-    <textarea id="postComment" placeholder="Comment"></textarea> <!-- textarea is een grotere input basically, ook kei handig-->
-    <button id="POSTbutton">Submit Review</button>
-  </section>
+    <section>
+      <h2>PATCH a Review</h2>
+      <input type="text" id="patchId" placeholder="Review ID" />
+      <input type="text" id="patchFirstName" placeholder="New First Name " />
+      <input type="text" id="patchLastName" placeholder="New Last Name " />
+      <input type="email" id="patchEmail" placeholder="New Email " />
+      <button id="PATCHbutton">Update Review</button>
+    </section>
 
-  <hr>
+    <hr />
 
-  <section>
-    <h2>PATCH a Review</h2>
-    <input type="text" id="patchId" placeholder="Review ID">
-    <input type="text" id="patchFirstName" placeholder="New First Name ">
-    <input type="text" id="patchLastName" placeholder="New Last Name ">
-    <input type="email" id="patchEmail" placeholder="New Email ">
-    <button id="PATCHbutton">Update Review</button>
-  </section>
-
-  <hr>
-
-  <section>
-    <h2>DELETE a Review</h2>
-    <input type="text" id="deleteId" placeholder="Review ID to delete">
-    <button id="DELbutton">Delete</button>
-  </section>
-  <script src="../scripts/admin.js">
-  </script>
-</body>
+    <section>
+      <h2>DELETE a Review</h2>
+      <input type="text" id="deleteId" placeholder="Review ID to delete" />
+      <button id="DELbutton">Delete</button>
+    </section>
+    <script src="../scripts/admin.js"></script>
+  </body>
 </html>

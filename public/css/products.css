@@ -1,4 +1,4 @@
-.cards-container { 
+.cards-container {
   display: flex;
   justify-content: left;
   flex-direction: row;
@@ -6,36 +6,36 @@
 }
 
 .products-container {
-    display: flex;
-    padding: 60px 20px;
+  display: flex;
+  padding: 60px 20px;
 }
 
 .productSelect {
-    padding: 12px;
-    display: flex;
-    flex-direction: column;
-    width: 400px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
 }
 
-.productSelect button { 
-    padding: 12px;
-    margin: 8px;
-    border: 1px solid var(--secondary);
-    display: flex;
-    background-color: var(--secondary);
-    border-radius: 12px;
+.productSelect button {
+  padding: 12px;
+  margin: 8px;
+  border: 1px solid var(--secondary);
+  display: flex;
+  background-color: var(--secondary);
+  border-radius: 12px;
 }
 
 .productSelect button:hover {
-    background-color: var(--primary);
-    border: 1px solid var(--primary);
-    border-radius: 12px;
+  background-color: var(--primary);
+  border: 1px solid var(--primary);
+  border-radius: 12px;
 }
 
 .optionLogo {
-    height: 24px;
-    width: auto;
-    margin-right: 8px;
+  height: 24px;
+  width: auto;
+  margin-right: 8px;
 }
 
 .products-container {

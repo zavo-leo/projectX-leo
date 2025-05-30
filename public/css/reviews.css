@@ -1,48 +1,43 @@
-.reviewCard-p { 
-    background-color: white;
-    border-radius: 15px;
-    
+.reviewCard-p {
+  background-color: white;
+  border-radius: 15px;
 }
 
-.review-elm-p { 
-    display: flex;
+.review-elm-p {
+  display: flex;
 }
 
 .review-elm-p > button {
-    font-size: 140px;
-
+  font-size: 140px;
 }
 
 .review-content-p {
-    font-size: 28px;
-    text-align: center;
-    padding: 18px;
-    width: 550px;
+  font-size: 28px;
+  text-align: center;
+  padding: 18px;
+  width: 550px;
 }
 
 .mainReviews {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 500px;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  align-items: center;
+  flex-direction: column;
 }
 
-div > h3 { 
-    font-size: 20px;
+div > h3 {
+  font-size: 20px;
 }
-
 
 .postReview {
-    padding: 12px;
-    background-color: var(--primary);
-    border-radius: 12px;
-    margin-top: 50px;
-    color: white;
+  padding: 12px;
+  background-color: var(--primary);
+  border-radius: 12px;
+  margin-top: 50px;
+  color: white;
 }
-
-
 
 .postReviewForm {
   max-width: 400px;
@@ -50,13 +45,12 @@ div > h3 {
   padding: 25px 20px;
   background: #f9f9f9;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: none;
 }
 
-
-.postReviewForm__title {
+.postReviewFormTitle {
   margin-bottom: 20px;
   font-weight: 700;
   color: #333;
@@ -64,9 +58,8 @@ div > h3 {
   letter-spacing: 0.03em;
 }
 
-
-.postReviewForm__input,
-.postReviewForm__textarea {
+.postReviewFormInput,
+.postReviewFormTextarea {
   width: 100%;
   padding: 12px 15px;
   margin-bottom: 15px;
@@ -78,18 +71,17 @@ div > h3 {
   font-family: inherit;
 }
 
-.postReviewForm__input:focus,
-.postReviewForm__textarea:focus {
-  border-color:var(--primary);
+.postReviewFormInput:focus,
+.postReviewFormTextarea:focus {
+  border-color: var(--primary);
 }
 
-.postReviewForm__textarea {
+.postReviewFormTextarea {
   min-height: 100px;
   resize: vertical;
 }
 
-/* Submit button */
-.postReviewForm__button {
+.postReviewFormButton {
   width: 100%;
   padding: 14px 0;
   background-color: var(--primary);
@@ -103,10 +95,9 @@ div > h3 {
   text-align: center;
 }
 
-.postReviewForm__button:hover {
+.postReviewFormButton:hover {
   background-color: var(--primary);
 }
-
 
 #reviewID {
   position: relative;
@@ -116,7 +107,10 @@ div > h3 {
 
 #reviewID > div {
   position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.5s ease;
@@ -129,14 +123,13 @@ div > h3 {
 }
 
 .reviewImage {
-    width: auto;
-    height: 400px;
-    margin-right: 24px;
+  width: auto;
+  height: 400px;
+  margin-right: 24px;
 }
 
-
 .posMain {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
 }

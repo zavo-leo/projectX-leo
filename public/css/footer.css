@@ -1,51 +1,49 @@
 .pcFooter {
-    background-color: #060809; /* vaste kleur */
+  background-color: #060809; /* vaste kleur */
 }
 
-.socials img { 
-    height: auto;
-    width: 120px;
-
+.socials img {
+  height: auto;
+  width: 120px;
 }
 
 .socials li {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
-.socials { 
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    
+.socials {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.ytLogo, .instaLogo, .facebookLogo { 
-    fill: #A7ACB1;
-    height: 40px;
-    width: auto;
+.ytLogo,
+.instaLogo,
+.facebookLogo {
+  fill: #a7acb1;
+  height: 40px;
+  width: auto;
 }
 
-.links-container { 
-    display: flex;
-    justify-content: space-evenly;
-    color: #A7ACB1;
-    padding: 56px 0px;
+.links-container {
+  display: flex;
+  justify-content: space-evenly;
+  color: #a7acb1;
+  padding: 56px 0px;
 }
 
 .linkTitle {
-    color: white;
-    font-size: 20px;
+  color: white;
+  font-size: 20px;
 }
 
 .links-container ul li {
-    padding: 4px;
+  padding: 4px;
 }
 
 .copyright {
-    color: #A7ACB1;
-    padding: 16px;
+  color: #a7acb1;
+  padding: 16px;
 }
-
-

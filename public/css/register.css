@@ -64,21 +64,20 @@
 }
 
 .registerImage {
-    width: 1000px;
-    height: auto;
+  width: 1000px;
+  height: auto;
 }
 
 .register-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 800px;
 }
 
-.convinceText  h2 {
-    text-align: center;
-    white-space: nowrap;
-    max-width: 1000px;
-    color: var(--third)
-
+.convinceText h2 {
+  text-align: center;
+  white-space: nowrap;
+  max-width: 1000px;
+  color: var(--third);
 }

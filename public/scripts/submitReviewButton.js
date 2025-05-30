@@ -4,8 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const POSTreviewFormButton = document.getElementById("POSTbutton-r");
 
   POSTreviewFormButton.addEventListener("click", function (e) {
-    reviewCard.style.display = "flex";  
-    POSTreviewForm.style.display = "none"; 
+    reviewCard.style.display = "flex";
+    POSTreviewForm.style.display = "none";
   });
 });
-5
+5;

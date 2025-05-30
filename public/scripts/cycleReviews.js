@@ -1,5 +1,5 @@
 function startReviewCarousel() {
-const reviews = document.querySelectorAll("#reviewID > div");
+  const reviews = document.querySelectorAll("#reviewID > div");
   if (reviews.length === 0) return;
 
   let currentIndex = 0;
@@ -9,15 +9,15 @@ const reviews = document.querySelectorAll("#reviewID > div");
     reviews.forEach((div) => (div.style.display = "none"));
   }
 
-function showReview(index) {
-  reviews.forEach((div, i) => {
-    if (i === index) {
-      div.classList.add("active");
-    } else {
-      div.classList.remove("active");
-    }
-  });
-}
+  function showReview(index) {
+    reviews.forEach((div, i) => {
+      if (i === index) {
+        div.classList.add("active");
+      } else {
+        div.classList.remove("active");
+      }
+    });
+  }
 
   function showNextReview() {
     currentIndex = (currentIndex + 1) % reviews.length;
