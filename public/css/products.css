@@ -1,21 +1,20 @@
-.card-row-container { 
+.cards-container { 
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .products-container {
     display: flex;
     padding: 60px 20px;
-    justify-content: center;
 }
 
 .productSelect {
     padding: 12px;
     display: flex;
     flex-direction: column;
-    min-width: 270px;
-    max-width: 400px;
-    flex: 1;
+    width: 400px;
 }
 
 .productSelect button { 
@@ -23,6 +22,8 @@
     margin: 8px;
     border: 1px solid var(--secondary);
     display: flex;
+    background-color: var(--secondary);
+    border-radius: 12px;
 }
 
 .productSelect button:hover {
@@ -37,3 +38,11 @@
     margin-right: 8px;
 }
 
+.products-container {
+  display: flex;
+}
+
+.productSelect {
+  width: 30%;
+  box-sizing: border-box;
+}

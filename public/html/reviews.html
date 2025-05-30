@@ -84,54 +84,57 @@
         </li>
       </nav>
     </header>
-  <main class="faq-container">
-    <h1>❓ Veelgestelde Vragen</h1>
-
-    <div class="faq-item">
-      <input type="checkbox" id="q1">
-      <label for="q1" class="faq-question">🧙‍♂️ Wat is Hex & Co?</label>
-      <div class="faq-answer">
-        Hex & Co is dé magische webshop voor heksen, tovenaars en andere magische zielen. Van kristallen tot unicornhaar – wij hebben het allemaal.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <input type="checkbox" id="q2">
-      <label for="q2" class="faq-question">🔮 Hoe krijg ik korting?</label>
-      <div class="faq-answer">
-        Maak een account aan en krijg automatisch toegang tot exclusieve kortingen en magische deals.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <input type="checkbox" id="q3">
-      <label for="q3" class="faq-question">📦 Hoe werkt verzending?</label>
-      <div class="faq-answer">
-        We verzenden met uilenpost of normale bezorgdiensten. Magische producten worden met zorg verpakt om lekken en ontploffingen te voorkomen.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <input type="checkbox" id="q4">
-      <label for="q4" class="faq-question">💳 Welke betaalmethodes accepteren jullie?</label>
-      <div class="faq-answer">
-        We accepteren betalingen via toverstaf, goudstukken, en moderne methodes zoals creditcards, PayPal en iDEAL.
-      </div>
-    </div>
-
-    <div class="faq-item">
-      <input type="checkbox" id="q5">
-      <label for="q5" class="faq-question">🧹 Wat als ik een defect item ontvang?</label>
-      <div class="faq-answer">
-        Stuur ons een uilenbericht (of e-mail) met foto. Je krijgt je geld terug of een nieuwe bezwering opgestuurd.
-      </div>
-    </div>
-  </main>
+    <main class="posMain">
+      <img src="../img/dnd-character-sketch-1762165594.png" alt="dnd charachter sketch" class="reviewImage">
+      <article class="mainReviews">
+        <section class="reviewCard-p westview">
+          <div class="review-elm-p">
+            <button class="arrow left">‹</button>
+            <div id="reviewID" class="review-content-p"></div>
+            <button class="arrow right">›</button>
+          </div>
+        </section>
+        <button class="postReview">POST own review</button>
+      </article>
+      <article>
+              <section class="postReviewForm">
+          <h2 class="postReviewForm__title">POST a Review</h2>
+          <input
+            class="postReviewForm__input"
+            type="text"
+            id="postFirstName-r"
+            placeholder="First Name"
+          />
+          <input
+            class="postReviewForm__input"
+            type="text"
+            id="postLastName-r"
+            placeholder="Last Name"
+          />
+          <input
+            class="postReviewForm__input"
+            type="text"
+            id="postStars-r"
+            placeholder="Rating (1/5)"
+          />
+          <textarea
+            class="postReviewForm__textarea"
+            id="postComment-r"
+            placeholder="Comment"
+          ></textarea>
+          <button class="postReviewForm__button" id="POSTbutton-r">
+            Submit Review
+          </button>
+        </section>
+      </article>
+    </main>
     <footer>
       <section class="pcFooter BurgerKingLettuce">
         <ul class="links-container">
           <ul class="socials">
-            <li><img src="../img/dragon_logo_cropped.png" alt="dragonlogo" /></li>
+            <li>
+              <img src="../img/dragon_logo_cropped.png" alt="dragonlogo" />
+            </li>
             <li>
               <a href="https://www.facebook.com/">
                 <svg
@@ -319,7 +322,9 @@
         </svg>
       </section>
     </footer>
-
-    <script src="../scripts/register.js"></script>
+    <script src="../scripts/showReviews.js"></script>
+    <script src="../scripts/postReviewButton.js"></script>
+    <script src="../scripts/submitReviewButton.js"></script>
+    <script src="../scripts/cycleReviews.js"></script>
   </body>
 </html>

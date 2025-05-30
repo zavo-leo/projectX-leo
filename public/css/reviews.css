@@ -1,0 +1,142 @@
+.reviewCard-p { 
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.review-elm-p { 
+    display: flex;
+}
+
+.review-elm-p > button {
+    font-size: 140px;
+
+}
+
+.review-content-p {
+    font-size: 28px;
+    text-align: center;
+    padding: 18px;
+    width: 550px;
+}
+
+.mainReviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+    align-items: center;
+    flex-direction: column;
+}
+
+div > h3 { 
+    font-size: 20px;
+}
+
+
+.postReview {
+    padding: 12px;
+    background-color: var(--primary);
+    border-radius: 12px;
+    margin-top: 50px;
+    color: white;
+}
+
+
+/* Container for the whole review form */
+.postReviewForm {
+  max-width: 400px;
+  margin: 30px auto;
+  padding: 25px 20px;
+  background: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+}
+
+/* The heading */
+.postReviewForm__title {
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #333;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Inputs and textarea */
+.postReviewForm__input,
+.postReviewForm__textarea {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 15px;
+  border: 1.8px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+
+.postReviewForm__input:focus,
+.postReviewForm__textarea:focus {
+  border-color:var(--primary);
+}
+
+.postReviewForm__textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+/* Submit button */
+.postReviewForm__button {
+  width: 100%;
+  padding: 14px 0;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+}
+
+.postReviewForm__button:hover {
+  background-color: #DC143C;
+}
+
+
+#reviewID {
+  position: relative;
+  height: 200px; /* or your review height */
+  overflow: hidden;
+}
+
+#reviewID > div {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+}
+
+#reviewID > div.active {
+  opacity: 1;
+  visibility: visible;
+  position: relative; /* optional */
+}
+
+.reviewImage {
+    width: auto;
+    height: 400px;
+    margin-right: 24px;
+}
+
+
+.posMain {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}

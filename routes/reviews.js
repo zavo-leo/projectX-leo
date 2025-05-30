@@ -1,13 +1,8 @@
 import express from 'express';
 const router = express.Router();
-import { v4 as uuidv4 } from 'uuid';
 import {client} from "../database/client.js"
 let db = client.db('reviewsdb'); // db en client moeten ook geimporteerd worden 
 import { ObjectId } from 'mongodb';
-
-
-
-
 const app = express();
 
 
@@ -21,8 +16,6 @@ router.get('/', async (req, res) =>{
 // POST review
 router.post('/', async (req, res) => {
     const reviews = req.body;
-
-    
     const result = await db.collection('reviews').insertOne(reviews);
     res.status(201).json(result);
 });

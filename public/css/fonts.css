@@ -31,7 +31,45 @@
   font-style: normal;
 }
 
-.westView, h2, main. {
+.westView, h2  {
   font-family: 'WestView', sans-serif;
   font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Bambi';
+  src: url('../fonts/X_BAMBI.TTF') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Bambi {
+  font-family: 'Bambi', sans-serif;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Gracia';
+  src: url('../fonts/Graciast-ywzg3.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.Gracia {
+  font-family: 'Gracia', sans-serif;
+  font-weight: 10;
+}
+
+
+
+@font-face {
+  font-family: 'IMF';
+  src: url('../fonts/IMFeGPit28P.ttf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.IMF, div > p {
+  font-family: 'IMF', sans-serif;
+  font-weight: 10;
 }
