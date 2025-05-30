@@ -18,7 +18,8 @@
   padding: 18px 200px;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis; /* voegt ... toe als het overflowt  */
+  text-overflow: ellipsis;
+  /* voegt ... toe als het overflowt  */
   gap: 30px;
 }
 
@@ -33,7 +34,8 @@
   display: flex;
   width: 100%;
   max-width: 600px;
-  background-color: #e0e6ed; /* vaste kleur */
+  background-color: var(--background);
+  /* vaste kleur */
   border-radius: 999px;
   overflow: hidden;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -46,6 +48,7 @@
   outline: none;
   background: transparent;
   font-size: 1rem;
+  color: var(--third-text)
 }
 
 .search-button {
@@ -96,6 +99,7 @@
   align-items: center;
   margin-right: auto;
   cursor: pointer;
+  color: var(--third-text)
 }
 
 .accountOptions {

@@ -25,6 +25,7 @@
   display: flex;
   background-color: var(--secondary);
   border-radius: 12px;
+    color: var(--third-text)
 }
 
 .productSelect button:hover {
@@ -37,6 +38,7 @@
   height: 24px;
   width: auto;
   margin-right: 8px;
+    fill: var(--third-text)
 }
 
 .products-container {

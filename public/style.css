@@ -16,5 +16,5 @@
 @import "css/reviews.css";
 
 body {
-  background: #f0f4ff;
+  background: var(--background);
 }
