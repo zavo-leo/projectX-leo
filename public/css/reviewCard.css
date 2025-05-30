@@ -1,0 +1,21 @@
+.reviewCard { 
+    background-color: white;
+    border-radius: 15px;
+    
+}
+
+.review-elm { 
+    display: flex;
+}
+
+.review-elm > button {
+    font-size: 140px;
+
+}
+
+.review-content {
+    font-size: 28px;
+    text-align: center;
+    padding: 18px;
+    width: 550px;
+}

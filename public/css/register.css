@@ -1,0 +1,84 @@
+.auth-card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  font-family: sans-serif;
+  min-width: 400px;
+  min-height: 400px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1.5rem;
+}
+
+.tab {
+  flex: 1;
+  padding: 0.75rem;
+  background: none;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s;
+  text-align: center;
+}
+
+.tab.active {
+  border-bottom: 2px solid var(--primary);
+  color: var(--primary);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+}
+
+.auth-form button {
+  padding: 0.75rem;
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.auth-form button:hover {
+  background: #0056b3;
+}
+
+.hidden {
+  display: none;
+}
+
+.registerImage {
+    width: 1000px;
+    height: auto;
+}
+
+.register-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 800px;
+}
+
+.convinceText  h2 {
+    text-align: center;
+    white-space: nowrap;
+    max-width: 1000px;
+    color: var(--third)
+
+}

@@ -1,0 +1,105 @@
+
+
+.header {
+  padding: 0 100px;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 18px 0px;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: var(--third-text);
+    font-size: 24px;
+    padding: 18px 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* voegt ... toe als het overflowt  */
+}
+
+.search-bar-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 80%;
+}
+
+.search-form {
+  display: flex;
+  width: 100%;
+  max-width: 600px;
+  background-color: #e0e6ed; /* vaste kleur */
+  border-radius: 999px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 1rem;
+}
+
+.search-button {
+  background: none;
+  border: none;
+  padding: 0 1rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--third-text);
+  transition: color 0.3s ease;
+}
+
+.search-button:hover {
+  color: var(--primary);
+}
+
+@media (max-width: 600px) {
+  .search-form {
+    max-width: 90%;
+  }
+
+  .search-input {
+    font-size: 0.9rem;
+  }
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  padding: 0 8px;
+}
+
+.shoppingCartLogo, .userLogo {
+  width: 25px;
+  height: auto; 
+  fill: var(--third-text);
+}
+
+.logoDiv {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: auto;
+  cursor: pointer
+}
+
+.accountOptions {
+  display: flex;
+  margin-left: auto;
+}
+

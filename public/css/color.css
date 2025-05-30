@@ -1,0 +1,23 @@
+:root {
+  --primary: #C51A16;
+  --secondary: white;
+  --accent: #F4989B;
+  --background: white;
+  --text: white;
+  --secondary-text: #9F9F9F; 
+  --third-text: #282828;
+}
+
+
+/* darkmote should be added */
+
+[data-theme="dark"] {
+  --primary: #C51A16;
+  --secondary: #1A1A1A;
+  --accent: #F4989B;
+  --background: #121212;
+  --text: white;
+  --secondary-text: #bbbbbb;
+  --third-text: #888888;
+}
+

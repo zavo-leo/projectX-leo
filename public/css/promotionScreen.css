@@ -1,0 +1,63 @@
+.promotionScreen {
+  background-image: url("../img/art-faction-banners-of-arestar-v0-hoj6kvtcecbb1-501520382.jpg");
+  background-size: cover;
+  background-position: unset;
+  background-repeat: no-repeat;
+  height: 450px;
+  width: 100vw;
+  color: var(--third-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+}
+
+.discountHighlight {
+  color: var(--primary);
+}
+
+.discountForm,
+.promotionCard {
+  display: flex;
+  flex-direction: column;
+}
+
+#email,
+#submit {
+  background-color: var(--accent);
+  border: solid 1px black;
+  border-radius: 8px;
+  padding: 12px 0px;
+  border: solid 1px black;
+  color: black;
+}
+
+.discountForm {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.discountText {
+  color: var(--accent);
+}
+
+.discountTitle {
+  font-size: 30px;
+  color: var(--third-text);
+}
+
+.promotionCard {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: white;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.promotionCard > div {
+
+}
