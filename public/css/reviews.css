@@ -43,7 +43,7 @@ div > h3 {
 }
 
 
-/* Container for the whole review form */
+
 .postReviewForm {
   max-width: 400px;
   margin: 30px auto;
@@ -55,7 +55,7 @@ div > h3 {
   display: none;
 }
 
-/* The heading */
+
 .postReviewForm__title {
   margin-bottom: 20px;
   font-weight: 700;
@@ -64,7 +64,7 @@ div > h3 {
   letter-spacing: 0.03em;
 }
 
-/* Inputs and textarea */
+
 .postReviewForm__input,
 .postReviewForm__textarea {
   width: 100%;
@@ -104,7 +104,7 @@ div > h3 {
 }
 
 .postReviewForm__button:hover {
-  background-color: #DC143C;
+  background-color: var(--primary);
 }
 
 

@@ -21,6 +21,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis; /* voegt ... toe als het overflowt  */
+    gap: 30px;
 }
 
 .search-bar-wrapper {
@@ -81,8 +82,10 @@
   padding: 0 8px;
 }
 
-.shoppingCartLogo, .userLogo {
-  width: 25px;
+
+.accountOptions {
+  width: 80px;
+  height: auto;
   height: auto; 
   fill: var(--third-text);
 }

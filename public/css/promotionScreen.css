@@ -8,7 +8,7 @@
   color: var(--third-text);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   gap: 50px;
 
 }
@@ -56,8 +56,10 @@
   background-color: white;
   padding: 12px;
   border-radius: 12px;
+  margin-left: 20%;
 }
 
-.promotionCard > div {
-
+.promotionImage {
+  height: 400px;
+  width: auto;
 }
