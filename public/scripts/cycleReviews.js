@@ -9,7 +9,7 @@ function startReviewCarousel() {
     reviews.forEach((div) => (div.style.display = "none"));
   }
 
-  function showReview(index) {
+  function showReview(index) { 
     reviews.forEach((div, i) => {
       if (i === index) {
         div.classList.add("active");
@@ -29,7 +29,7 @@ function startReviewCarousel() {
     showReview(currentIndex);
   }
 
-  function resetInterval() {
+  function resetInterval() { //Timer rests after you click on an arrow
     clearInterval(intervalId);
     intervalId = setInterval(showNextReview, 5000);
   }
