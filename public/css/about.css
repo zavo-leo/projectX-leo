@@ -37,7 +37,7 @@
 }
 
 .about-card {
-  background-color: var(--background);
+  background-color: var(--secondary);
   border: 1px solid #eaeaea;
   border-radius: 1rem;
   padding: 2rem;
